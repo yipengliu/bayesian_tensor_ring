@@ -1,11 +1,12 @@
-# TR-VBI code
-The code is for the paper Bayesian Low Rank Tensor Ring for Image Recovery.
+# demo for Beyesian tensor ring
 
-You can try just run the
+The codes are for the paper:
 
-demo_image_recovery.m for color image completion
+Zhen Long, Ce Zhu, Jiani Liu, Yipeng Liu, "Bayesian Low Rank Tensor Ring for Image Recovery,"  IEEE Transactions on Image Processing, 2021. DOI: 10.1109/TIP.2021.3062195.
 
-For setting up, we can add path by the following sentence.
+For experiments on color image completion: 
+demo_image_recovery.m 
 
+For setting up, we can add path by the following sentence:
 addpath('mylib');  addpath('TestImage');
 
