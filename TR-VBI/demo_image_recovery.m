@@ -28,7 +28,7 @@ tol=1e-7;%change error (G_{N}^{i+1}-G_{N}^{i})/(G_{N}^{i})
 tStart = tic;
 [model] = TR_VBI1(Data,O, init,maxRank , maxiters,tol);
 time=toc(tStart);
-RSE=norm(model.X(:),Data(:),'fro')/norm(Data(:),'fro');
+%RSE=norm(model.X(:),Data(:),'fro')/norm(Data(:),'fro');
 X_hat=reshape(model.X,[320,480,3]);
 figure;
 subplot(1,3,1),imshow(uint8(DataN)),title('Original Image');
