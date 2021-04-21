@@ -1,4 +1,4 @@
-# demo for Beyesian tensor ring
+# demo for Bayesian tensor ring
 
 The codes are for the paper:
 
